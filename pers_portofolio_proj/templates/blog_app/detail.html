@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% extends "portofolio_app/base.html" %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'blog:all_blogs' %}">Blog</a>
+<br>
+<p>--{{ blog.date|date:'d M Y' }}--</p>
+<br>
+<h2>{{ blog.title }}</h2>
+<br>
+<h3>{{ blog.description }}</h3>
+</body>
+</html>
+{% endblock %}

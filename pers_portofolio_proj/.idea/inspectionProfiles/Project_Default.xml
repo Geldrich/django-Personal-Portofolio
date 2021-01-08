@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="helloworld.helloworld.settings.os" />
+          <option value="Django_level_three.basicforms.basicforms.urls.basicapp" />
+          <option value="learning_templates.learning_templates.urls.basic_app" />
+          <option value="learning_templates.learning_templates.*" />
+          <option value="taskpy_proj.taskpy_app.forms.taskpy_app" />
+          <option value="first_project.first_project.urls.first_app" />
+          <option value="str.extend" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
